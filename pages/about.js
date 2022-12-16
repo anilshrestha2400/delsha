@@ -19,25 +19,74 @@ const about = () => {
       <Container>
         <div class="my-10">
           <h3 class="text-5xl mb-2  font-bold text-center">About Us</h3>
-          <div className="my-8 mx-5">
-            <h3 className="text-2xl text-justify text-gray-800">
+
+          <div className="my-8 mx-10 block min-[1192px]:hidden">
+            <h3 className="text-xl text-justify text-gray-800">
               Delsha Holdings is an impartial and cohesive community that seeks
               to create value creation through long-term holdings in a select
-              group of companies.Group of companies includes{" "}
-              <span className="font-bold">Bisava Technology</span> as It service
-              sector, <span className="font-bold">Avani Nepal</span> as
-              Cosmetics sector,{" "}
-              <span className="font-bold">
+              group of companies. <br />
+              Group of companies includes{" "}
+              <span className="font-bold italic">Bisava Technology</span> as It
+              service sector,{" "}
+              <span className="font-bold italic">Avani Nepal</span> as Cosmetics
+              sector,{" "}
+              <span className="font-bold italic">
                 Pacific Engineering Co. Pvt. Ltd.
               </span>{" "}
               as construction sector,{" "}
-              <span className="font-bold">Chainge Digial</span> as marketing
-              sector, <span className="font-bold"> Madhuka Drone Service</span>{" "}
+              <span className="font-bold italic">Chainge Digial</span> as
+              marketing sector,{" "}
+              <span className="font-bold italic"> Madhuka Drone Service</span>{" "}
               as drone service provider and{" "}
-              <span className="font-bold">Ultra LED Display</span> to light your
-              brands. Our Ventures enjoy work and always go above and beyond to
-              ensure that our clients are satisfied.
+              <span className="font-bold italic">Ultra LED Display</span> to
+              light your brands. Our Ventures enjoy work and always go above and
+              beyond to ensure that our clients are satisfied.
             </h3>
+          </div>
+
+          <div className="hidden min-[1192px]:block min-[1192px]:mb-20">
+            <div className="relative w-full h-[80vh] my-5">
+              <div className="bg-gray-300 w-2/3 grid place-items-center absolute">
+                <div className="my-8 mx-5 px-10 py-10 mr-40 ">
+                  <h1 className="font-mono text-3xl mb-3 text-sky-500">
+                    Who we are
+                  </h1>
+                  <h3 className="text-xl text-justify text-gray-800">
+                    Delsha Holdings is an impartial and cohesive community that
+                    seeks to create value creation through long-term holdings in
+                    a select group of companies.
+                    <br />
+                    <br />
+                    Group of companies includes{" "}
+                    <span className="font-bold italic">
+                      Bisava Technology
+                    </span>{" "}
+                    as It service sector,{" "}
+                    <span className="font-bold italic">Avani Nepal</span> as
+                    Cosmetics sector,{" "}
+                    <span className="font-bold italic">
+                      Pacific Engineering Co. Pvt. Ltd.
+                    </span>{" "}
+                    as construction sector,{" "}
+                    <span className="font-bold italic">Chainge Digial</span> as
+                    marketing sector,{" "}
+                    <span className="font-bold italic">
+                      {" "}
+                      Madhuka Drone Service
+                    </span>{" "}
+                    as drone service provider and{" "}
+                    <span className="font-bold italic">
+                      Ultra LED Display
+                    </span>{" "}
+                    to light your brands. Our Ventures enjoy work and always go
+                    above and beyond to ensure that our clients are satisfied.
+                  </h3>
+                </div>
+              </div>
+              <div className="absolute -bottom-16 right-12">
+                <img src="/drone.jpg" alt="" className="w-[500px] h-[300px]" />
+              </div>
+            </div>
           </div>
         </div>
         <h1 className="text-5xl font-bold text-center mb-10">Our Ventures</h1>
