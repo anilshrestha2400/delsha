@@ -9,10 +9,13 @@ const Footer = () => {
         <div className="mb-5 w-full">
           <h1 className="text-2xl font-semibold mb-3">About Us</h1>
           <h1 className="text-lg text-justify">
-            We are a sourcing company that focuses on offering high-quality
+            {/* We are a sourcing company that focuses on offering high-quality
             products and services to customers all around the world. We take
             pleasure in our work and constantly go above and beyond to make sure
-            that our clients are satisfied.
+            that our clients are satisfied. */}
+            Delsha Holdings is an impartial and cohesive community that seeks to
+            create value creation through long-term holdings in a select group
+            of companies.
           </h1>
         </div>
         <div className="mb-5 w-full">

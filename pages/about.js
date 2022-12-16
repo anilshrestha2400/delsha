@@ -20,11 +20,23 @@ const about = () => {
         <div class="my-10">
           <h3 class="text-5xl mb-2  font-bold text-center">About Us</h3>
           <div className="my-8 mx-5">
-            <h3 className="text-2xl text-center text-gray-800">
-              We are a sourcing company that focuses on offering high-quality
-              products and services to customers all around the world. We take
-              pleasure in our work and constantly go above and beyond to make
-              sure that our clients are satisfied.
+            <h3 className="text-2xl text-justify text-gray-800">
+              Delsha Holdings is an impartial and cohesive community that seeks
+              to create value creation through long-term holdings in a select
+              group of companies.Group of companies includes{" "}
+              <span className="font-bold">Bisava Technology</span> as It service
+              sector, <span className="font-bold">Avani Nepal</span> as
+              Cosmetics sector,{" "}
+              <span className="font-bold">
+                Pacific Engineering Co. Pvt. Ltd.
+              </span>{" "}
+              as construction sector,{" "}
+              <span className="font-bold">Chainge Digial</span> as marketing
+              sector, <span className="font-bold"> Madhuka Drone Service</span>{" "}
+              as drone service provider and{" "}
+              <span className="font-bold">Ultra LED Display</span> to light your
+              brands. Our Ventures enjoy work and always go above and beyond to
+              ensure that our clients are satisfied.
             </h3>
           </div>
         </div>
