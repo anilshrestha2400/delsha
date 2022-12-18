@@ -109,7 +109,7 @@ const informationTechnology = () => {
                   target="_blank"
                   className="font-bold"
                 >
-                  Volex
+                  Velox
                 </Link>{" "}
               </h1>
             </div>
