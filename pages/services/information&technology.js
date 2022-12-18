@@ -157,6 +157,61 @@ const informationTechnology = () => {
             ))}
           </div>
         </div>
+        <div className="my-10">
+          <h1 className="text-4xl text-center my-8">Our Clients</h1>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10">
+            <div className="grayscale-[100%] hover:grayscale-0">
+              <img
+                src="/c6.png"
+                alt=""
+                className="w-[130px] text-center m-auto"
+              />
+            </div>
+            <div className="grayscale-[100%] hover:grayscale-0">
+              <img
+                src="/cit.jpeg"
+                alt=""
+                className="w-[130px] text-center m-auto"
+              />
+            </div>
+            <div className="grayscale-[100%] hover:grayscale-0">
+              <img
+                src="/nea.png"
+                alt=""
+                className="w-[130px] text-center m-auto"
+              />
+            </div>
+
+            <div className="grayscale-[100%] hover:grayscale-0">
+              <img
+                src="/idm.jpeg"
+                alt=""
+                className="w-[130px] text-center m-auto"
+              />
+            </div>
+            <div className="grayscale-[100%] hover:grayscale-0">
+              <img
+                src="/romanialogo.jpeg"
+                alt=""
+                className="w-[130px] text-center m-auto"
+              />
+            </div>
+            <div className="grayscale-[100%] hover:grayscale-0">
+              <img
+                src="/gitilogo.png"
+                alt=""
+                className="w-[130px] text-center m-auto"
+              />
+            </div>
+            <div className="grayscale-[100%] hover:grayscale-0">
+              <img
+                src="/shivalogo.jpg"
+                alt=""
+                className="w-[130px] text-center m-auto"
+              />
+            </div>
+          </div>
+        </div>
       </Container>
       <Footer />
     </div>
